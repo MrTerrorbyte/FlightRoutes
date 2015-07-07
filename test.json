@@ -1,0 +1,69 @@
+
+
+{
+	"data sources" : [
+		"http://www.gcmap.com/" ,
+		"http://www.theodora.com/country_digraphs.html" ,
+		"http://www.citypopulation.de/world/Agglomerations.html" ,
+		"http://www.mongabay.com/cities_urban_01.htm" ,
+		"http://en.wikipedia.org/wiki/Urban_agglomeration" ,
+		"http://www.worldtimezone.com/standard.html"
+	] , 
+	"metros" : [
+		{
+			"code" : "one" ,
+			"name" : "cityOne" ,
+			"country" : "CL" ,
+			"continent" : "South America" ,
+			"timezone" : -4 ,
+			"coordinates" : {"S" : 33, "W" : 71} ,
+			"population" : 6000000 ,
+			"region" : 1
+		} , {
+			"code" : "two" ,
+			"name" : "cityTwo" ,
+			"country" : "PE" ,
+			"continent" : "South America" ,
+			"timezone" : -5 ,
+			"coordinates" : {"S" : 12, "W" : 77} ,
+			"population" : 9050000 ,
+			"region" : 1
+		} , {
+			"code" : "three" ,
+			"name" : "cityThree" ,
+			"country" : "MX" ,
+			"continent" : "North America" ,
+			"timezone" : -6 ,
+			"coordinates" : {"N" : 19, "W" : 99} ,
+			"population" : 23400000 ,
+			"region" : 1
+		} , {
+			"code" : "four" ,
+			"name" : "cityFour" ,
+			"country" : "CO" ,
+			"continent" : "South America" ,
+			"timezone" : -5 ,
+			"coordinates" : {"N" : 5, "W" : 74} ,
+			"population" : 8600000 ,
+			"region" : 1
+		} 
+	] ,
+	"routes" : [
+		{
+			"ports" : ["one" , "two"] ,
+			"distance" : 3000
+		} , {
+			"ports" : ["one" , "three"] ,
+			"distance" : 4000
+		} , {
+			"ports" : ["one" , "four"] ,
+			"distance" : 5000
+		} , {
+			"ports" : ["two" , "three"] ,
+			"distance" : 5000
+		} , {
+			"ports" : ["three" , "four"] ,
+			"distance" : 7000
+		} 
+	]
+}
